@@ -32,6 +32,10 @@ a {
     border-radius: 5px;
 }
 
+a:hover {
+    background-color: rgb(255, 166, 49);
+}
+
 article {
     margin: 40px;
 }
@@ -44,8 +48,8 @@ section {
 
 img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 0px 20px 8px;
 }
 
