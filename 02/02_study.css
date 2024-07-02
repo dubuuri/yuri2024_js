@@ -1,0 +1,152 @@
+/* 전체 요소 모두 선택 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 태그 selector */
+header {
+    background-color: aliceblue;
+}
+
+h2 {
+    color: darkcyan;
+}
+
+/* 이렇게 header h2 이런게 테그 셀렉터 */
+
+/* 클래스 selector */
+.c1 {
+    background-color: lemonchiffon;
+}
+
+.c2 {
+    background-color: honeydew;
+}
+
+/* 이렇게 . 점 하고 c2 하는게 클래스 선택자 */
+
+/* 아이디 selector */
+#d3 {
+    background-color: blanchedalmond;
+}
+
+/* 이렇게 # 샵 하고 d1 하는게 아이디 선택자 */
+/* 아이디랑 클래스가 같이 있으면 아이디가 우선순위 !! */
+/* 태그 < 클래스 < 아이디 */
+/* 아이디 선택자는 고유한 식별자 - 하나만 있음 ! */
+
+/* 아이디 selector, 부모자식 관계 */
+#d1 > h2 {
+    color: goldenrod;
+}
+
+/* d1 아이디 안의 h2만 바꾸고 싶을 때는 #d1 > h2 
+*/
+
+/* 자손관계 selector */
+header > ul > li {
+    color: green;
+}
+
+header li {
+    color: chocolate;
+    list-style: none;
+    /* 목록 동그라미 뺴기 */
+    margin: 5px;
+}
+
+/* 부등호는 바로 아래만 확인, 공백이면 그 아래를 전부 다 확인 */
+
+/* 속성 selector, 그룹화 */
+img[alt=html],
+img[alt=js] {
+    width: 100px;
+    height: 100px;
+}
+
+img[alt=js] {
+    width: 100px;
+    height: 100px;
+}
+
+/* 같은 걸 적용할 때는 위에처럼 쉼표하고 해도댐 */
+
+a {
+    text-decoration: none;
+    /* 하이퍼링크 밑줄 없애기 */
+    color: black;
+    display: inline-flex;
+    padding: 5px;
+}
+
+/* 가상 클래스 selector */
+a:hover {
+    color: lightskyblue;
+    background-color: lemonchiffon;
+}
+
+/* hover는 마우스가 올라갈 때 ! */
+
+
+/* 박스 모델 */
+
+article {
+    border: 3px solid blue;
+    margin: 10px 10px 10px 10px;
+    /* margin은 바깥으로의 여백 */
+    /* 위 오 아래 왼 : 시계방향임 */
+    padding: 10px;
+    /* padding은 안쪽으로의 여백 */
+}
+
+/* border는 한번에 써도 되고, border-width 이렇게 따로 따로 적을 수 있음 */
+
+header {
+    display: flex;
+    justify-content: center;
+    /* 가로 중간 정렬 */
+    justify-content: space-between;
+    /* 전체에서 가로 간격을 동일하게 */
+    align-items: center;
+    /* 위아래 중간 정렬 */
+    padding: 10px;
+    height: 200px;
+}
+
+div, ul {
+    border: 2px, solid coral;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+/* 미디어 쿼리 */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    header {
+        background-color: aquamarine;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* div, p, h1 등 은 블록 레벨 요소로 자기가 속한 영역의 너비를 모두 차지 !
+span, a 등은 인라인 요소로 자기에게 필요한 만큼의 공간만 차지 !
+display 를 통해 서로 (인라인 블록) 여부를 바꿔줄 수 있음 !! */
+
+/* flex VS inline-flex
+flex 는 옆으로 배치 가능
+inline-flex 는 inline 요소이지만 span 처럼 박스를 칠 수 있다 */
+
+/* span 태그로는 margin과 padding을 못줌
+-> 그래서 inline 을 통해서 margin padding 을 주는거임 */

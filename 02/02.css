@@ -1,0 +1,74 @@
+head, body {
+    background-color: rgb(233, 243, 251);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 30px;
+    margin: 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    display: inline-flex;
+    background-color: rgb(28, 141, 255);
+    color: white;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgb(255, 166, 49);
+}
+
+article {
+    margin: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 1px 20px;
+    margin: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 0px 20px 8px;
+}
+
+section p {
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 미디어 쿼리 */
+@media screen and (min-width: 1024px) {
+    head {
+        background-color: azure;
+    }
+}

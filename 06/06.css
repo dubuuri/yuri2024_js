@@ -1,0 +1,11 @@
+#d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=number] {
+    padding: 12px 5px;
+    margin: 5px;
+    border: rgb(62, 42, 137) solid;
+}
