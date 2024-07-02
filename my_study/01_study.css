@@ -1,0 +1,73 @@
+head, body {
+    background-color: rgb(212, 238, 255);
+    margin: 0;
+    padding: 0;
+}
+
+#t {
+    margin-left: 40px;
+}
+
+article {
+    margin: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 5px 20px 20px 20px;
+    margin: 5px 20px 20px 20px;
+}
+
+a {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    
+    text-decoration: none;
+    /* display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+body ul {
+    display: flex;
+    justify-content: end;
+}
+
+body li {
+    /* list-style: none; */
+    display: inline;
+}
+
+a:hover {
+    background-color: coral;
+}
+
+section > p {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+@media screen and (min-width: 100px) {
+    head {
+        background-color: rgb(240, 240, 255);
+    }
+}
