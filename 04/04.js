@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
          const nCom = Math.floor(Math.random() * 6) + 1;
 
          // user 숫자
-         const nUser = bt.textContent.charAt(0);
+         const nUser = parseInt(bt.textContent.charAt(0));
 
          // 3. img의 src 속성을 변경
          imgCom.setAttribute('src', `./img/${nCom}.png`);
@@ -30,5 +30,4 @@ document.addEventListener('DOMContentLoaded', () => {
          }
       });
    }
-
 });

@@ -19,8 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // 3. img의 src 속성을 변경
       img.setAttribute('src', `./img/${n}.png`)
-      
-      
    });
 
 });

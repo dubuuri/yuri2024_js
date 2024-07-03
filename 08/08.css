@@ -1,0 +1,23 @@
+#divContent > div {
+   width: 100%;
+   height: 40px;
+   padding: 10px;
+   margin: 10px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+input[type=text] {
+   width: 90%;
+   height: 90%;
+   text-align: center;
+   font-size: medium;
+}
+
+button {
+   width: 20%;
+   display: inline-flex; /* flex 박스니까 margin padding 줄 수 있음 */
+   margin: 5px;
+}
