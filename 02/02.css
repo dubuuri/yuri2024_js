@@ -1,4 +1,4 @@
-head, body {
+body {
     background-color: rgb(233, 243, 251);
     margin: 0;
     padding: 0;
@@ -10,19 +10,18 @@ header {
 }
 
 header ul {
-    display: flex;
+    display: flex; /* 전체를 박스치고 */
     justify-content: flex-end;
     margin-right: 10px;
 }
 
 header li {
     list-style: none;
-    display: inline;
+    display: inline-flex;  /* 하나하나 각자 박스쳐 */
 }
 
 a {
     text-decoration: none;
-    display: inline-flex;
     background-color: rgb(28, 141, 255);
     color: white;
     padding: 8px;
@@ -68,7 +67,16 @@ footer {
 
 /* 미디어 쿼리 */
 @media screen and (min-width: 1024px) {
-    head {
-        background-color: azure;
+    #content {
+        /* background-color: rgb(14, 50, 50); */
+        width: 80%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
     }
 }
+
+/* flex-direction: column 하면 기둥 세워짐 */

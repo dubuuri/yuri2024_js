@@ -13,8 +13,6 @@ h2 {
     color: darkcyan;
 }
 
-/* 이렇게 header h2 이런게 테그 셀렉터 */
-
 /* 클래스 selector */
 .c1 {
     background-color: lemonchiffon;
@@ -24,16 +22,12 @@ h2 {
     background-color: honeydew;
 }
 
-/* 이렇게 . 점 하고 c2 하는게 클래스 선택자 */
-
 /* 아이디 selector */
 #d3 {
     background-color: blanchedalmond;
 }
 
-/* 이렇게 # 샵 하고 d1 하는게 아이디 선택자 */
-/* 아이디랑 클래스가 같이 있으면 아이디가 우선순위 !! */
-/* 태그 < 클래스 < 아이디 */
+/* 우선순위 : 태그 < 클래스 < 아이디 */
 /* 아이디 선택자는 고유한 식별자 - 하나만 있음 ! */
 
 /* 아이디 selector, 부모자식 관계 */
@@ -41,8 +35,7 @@ h2 {
     color: goldenrod;
 }
 
-/* d1 아이디 안의 h2만 바꾸고 싶을 때는 #d1 > h2 
-*/
+/* d1 아이디 안의 h2만 바꾸고 싶을 때는 #d1 > h2 */
 
 /* 자손관계 selector */
 header > ul > li {
@@ -59,8 +52,7 @@ header li {
 /* 부등호는 바로 아래만 확인, 공백이면 그 아래를 전부 다 확인 */
 
 /* 속성 selector, 그룹화 */
-img[alt=html],
-img[alt=js] {
+img[alt=html], img[alt=js] {
     width: 100px;
     height: 100px;
 }
@@ -85,7 +77,6 @@ a:hover {
     color: lightskyblue;
     background-color: lemonchiffon;
 }
-
 /* hover는 마우스가 올라갈 때 ! */
 
 

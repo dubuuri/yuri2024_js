@@ -35,7 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
          // 오브젝트 사용할 때
          arr.push(obj[bt.textContent]);
-
+         // arr.push(obj[bt]);
+         // 얘만 하면 <button class="btAdd">사과</button> 이렇게 나옴
+   
          txt1.value = arr.join(' ');
       });
    }
@@ -57,8 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
          // (item) 하나만 있으면 괄호 생략 가능
          // 두번째에 중괄호랑 return 삭제 가능 (중괄호를 할거면 return도 해야해)
-
-
+         
       })
    }
 
