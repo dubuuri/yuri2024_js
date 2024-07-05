@@ -17,7 +17,7 @@ header ul {
 
 header li {
     list-style: none;
-    display: inline-flex;  /* 하나하나 각자 박스쳐 */
+    display: inline-flex;  /* 하나하나 각자 박스 쳐 */
 }
 
 a {

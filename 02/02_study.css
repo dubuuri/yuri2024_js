@@ -137,7 +137,7 @@ display 를 통해 서로 (인라인 블록) 여부를 바꿔줄 수 있음 !! *
 
 /* flex VS inline-flex
 flex 는 옆으로 배치 가능
-inline-flex 는 inline 요소이지만 span 처럼 박스를 칠 수 있다 */
+inline-flex 는 inline 요소이지만 span 처럼 박스를 칠 수 있음 */
 
 /* span 태그로는 margin과 padding을 못줌
 -> 그래서 inline 을 통해서 margin padding 을 주는거임 */
