@@ -1,10 +1,12 @@
 const convert = (sel1, sel2, lb1, lb2) => {
-    if (sel1.value === '℃') { //섭씨온도 -> 화씨온도
+    //섭씨온도 -> 화씨온도
+    if (sel1.value === '℃') {
         sel2.value = '℉';
         lb1.textContent = '℃';
         lb2.textContent = '℉';
     }
-    else {  //화씨온도 -> 섭씨온도
+    //화씨온도 -> 섭씨온도
+    else {
         sel2.value = '℃';
         lb1.textContent = '℉';
         lb2.textContent = '℃';

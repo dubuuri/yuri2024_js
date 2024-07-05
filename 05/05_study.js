@@ -23,7 +23,7 @@ for (let i in arr) {
 console.log("** for each 반복문 **");
 // arr.forEach(item => console.log(item));
 arr.forEach((item, i) => {console.log("${i} => ${item}");})
-// 괄호 안을 콜백? 함수
+// 괄호 안은 콜백 함수
 
 // for ... of 반복문
 console.log("** for of 반복문**")
