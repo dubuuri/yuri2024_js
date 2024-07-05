@@ -67,7 +67,7 @@ a {
    align-items: center;
    flex-direction: column;
 
-   border: gray dotted 3px;
+   border: rgb(98, 98, 98) dotted 3px;
 }
 
 button {
