@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 초기화 함수
     const init = () => {
         img.setAttribute('src', './img/what.png');
-        txt1.value = '';
+        txt1.value = ''; // 빈칸에 공백
         txt1.style.display = 'inline'; // 확인버튼 보이게
         btok.textContent = '확인';
         btcancel.style.display = 'inline';
