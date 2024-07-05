@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //     msg.innerHTML = "<h1> 안녕 </h1>" ;
     // });
 
-    // 버튼 누를때마다 안녕 잘가 번갈아나타나게 하기
+    // 버튼 누를때마다 안녕 잘가 번갈아 나타나게 하기
     bt.addEventListener("click", ()=>{
         if (msg.innerHTML == "안녕?") msg.innerHTML = "잘가!";
         else msg.innerHTML = "안녕?"

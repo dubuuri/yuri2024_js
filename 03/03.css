@@ -3,7 +3,7 @@ section {
     height: 400px;
 
     background-color: aliceblue;
-    border: 1px dashed royalblue;
+    border: 2px dashed royalblue;
     padding: 20px;
 
     display: flex;
