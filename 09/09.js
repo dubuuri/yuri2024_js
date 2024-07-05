@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
    bt.addEventListener('click', () => {
       // 배열 초기화
-      // arr = [];
-      arr.length = 0;
+      arr = [];
+      // arr.length = 0;
 
       // 로또 번호 생성
       while (arr.length < 7) {
