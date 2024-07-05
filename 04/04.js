@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
          imgCom.setAttribute('src', `./img/${nCom}.png`);
          imgUser.setAttribute('src', `./img/${nUser}.png`);
 
-         // 4. 숫자비교
+         // 4. 숫자 비교
          if (nCom === nUser) {
             msg.innerHTML = '<h1 id="msgRed"> 맞음 </h1>';
          }

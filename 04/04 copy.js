@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
    bt.addEventListener('click', () => {
       // (1~6 까지의) 랜덤수를 발생
       const n = Math.floor(Math.random() * 6) + 1;
-      console.log(`${n}.png`); // 백틱 문자열 따옴표가 아니라 tap 위의 물결표시 !!
+      console.log(`${n}.png`); // 백틱 문자열 따옴표X tap 위의 물결표시 !!
 
       // 3. img의 src 속성을 변경
       img.setAttribute('src', `./img/${n}.png`)
