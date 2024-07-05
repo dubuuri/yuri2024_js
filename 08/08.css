@@ -18,6 +18,7 @@ input[type=text] {
 
 button {
    width: 20%;
-   display: inline-flex; /* flex 박스니까 margin padding 줄 수 있음 */
+   display: inline-flex;
+   /* flex 박스니까 margin padding 줄 수 있음 */
    margin: 5px;
 }

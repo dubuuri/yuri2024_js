@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bt.addEventListener('click', () => {
          const w1 = bt.textContent.split('→')[0];
          const w2 = bt.textContent.split('→')[1];
-         // console.log(w1, w2);
+         console.log(w1, w2);
 
          // let tm = arr.map((item) => {return item == obj[w1] ? obj[w2] : item});
          // txt1.value = tm.join(' ');
