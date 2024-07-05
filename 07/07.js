@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 회문 확인
     bt1.addEventListener('click', (e) => {
-        e.preventDefault(); // form이 존재하니까 !
+        e.preventDefault(); // form이 존재하니까
 
         if (txt1.value == '') return;
 
