@@ -31,6 +31,13 @@ section {
    flex-direction: column;
 }
 
+a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: flex-end;
+}
+
 #divTitle {
    width: 90%;
 
