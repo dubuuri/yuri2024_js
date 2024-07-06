@@ -1,6 +1,6 @@
 body {
    background-color: #F1F8E8;
-   width: 100%;
+   width: 90%;
 }
 
 h1 {
@@ -24,7 +24,7 @@ ul {
 
    padding: 5px;
 
-   border: #EF9C66 dashed 3px;
+   border: #FCDC94 dashed 3px;
    border-radius: 10px;
 }
 
@@ -58,5 +58,5 @@ a {
 }
 
 a:hover {
-   background-color: rgb(043, 063, 107);
+   background-color: #FCDC94;
 }
